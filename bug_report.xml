@@ -1,1 +1,11 @@
-
+<bug>
+    <ID>2</ID>,
+    <Version>iPhone X iOs 16.2</Version>,
+    <Summary>При нажатии на small виджет на домашнем экране телефона, пользователя перенаправляет в App Store</Summary>,
+  <STR>1. Запустить приложение 2. В small size виджет выбрать интересующую валюту 3. Тапнуть кнопку save 4. Выйти с приложения 5. добавить small виджет на домашний экран телефона 6. Тапнуть на small виджет на домашнем экране телефона 7. Обратить внимание куда виджет перенаправляет пользователя</STR>,
+    <Actual_result>Виджет перенаправляет пользователя в приложение 'App Store' для загрузки приложения capital.com</Actual_result>,
+    <Expected_result>Виджет перенаправляет пользователя в приложение Bitcoin price в 'Setup widget'</Expected_result>,
+    <Severity>Major</Severity>,
+    <Priority>Medium</Priority>,
+    <Attachments>screencast</Attachments>
+</bug>
